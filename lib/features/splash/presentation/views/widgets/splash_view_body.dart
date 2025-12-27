@@ -43,7 +43,7 @@ class _SplashViewBodyState extends State<SplashViewBody> {
   void navigateToOnboarding() async {
     await Future.delayed(Duration(seconds: 3), () {
       if (!mounted) return;
-      GoRouter.of(context).pushNamed(AppRoutes.kOnBoardingView);
+      GoRouter.of(context).pushReplacement(AppRoutes.kOnBoardingView);
     });
   }
 }

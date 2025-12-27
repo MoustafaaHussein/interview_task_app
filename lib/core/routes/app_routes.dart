@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:interview_task_app/features/onboarding/presentation/views/onBoarding_view.dart';
 import 'package:interview_task_app/features/splash/presentation/views/splash_view.dart';
 
 abstract class AppRoutes {
@@ -11,6 +12,10 @@ abstract class AppRoutes {
         builder: (context, state) {
           return SplashView();
         },
+      ),
+      GoRoute(
+        path: kOnBoardingView,
+        builder: (context, state) => OnboardingView(),
       ),
     ],
   );
