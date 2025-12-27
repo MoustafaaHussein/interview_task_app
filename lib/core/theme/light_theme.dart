@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:interview_task_app/core/theme/colors/dark_colors.dart';
 import 'package:interview_task_app/core/theme/colors/light_colors.dart';
 
 final ThemeData lightTheme = ThemeData(
   scaffoldBackgroundColor: LightColors.kBackGroundColor,
+  textSelectionTheme: TextSelectionThemeData(
+    cursorColor: DarkColors.kFontClicableColor,
+    selectionColor: DarkColors.kFontClicableColor,
+  ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       backgroundColor: const Color(0xFF0066FD), // button color
