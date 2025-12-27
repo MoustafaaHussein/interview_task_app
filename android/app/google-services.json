@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "417279404472",
+    "project_id": "new-books-app-d2116",
+    "storage_bucket": "new-books-app-d2116.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417279404472:android:f3929925fbadf51893874d",
+        "android_client_info": {
+          "package_name": "com.example.interview_task_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAou8qgjUbwbQAy8vt2caLg05jzhCL1y3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
